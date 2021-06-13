@@ -1,0 +1,24 @@
+Package: eparlibscrapR
+Title: A Simple Webscraper for the Parliament of India's Digital Repository
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Asilata",
+           family = "Karandikar",
+           role = c("aut", "cre"),
+           email = "asilata.res@protonmail.com",
+           comment = c(ORCID = "0000-0002-0764-2677"))
+Description: Collects data from searches on the Parliament of India's digital
+    repository (https://eparlib.nic.in). Based on search inputs filtered by 
+    "type" on the website - Part 1(Questions and Answers) or Part 2(Other than
+    Questions and Answers) - it returns a data frame with details including 
+    the link to the pdf document in each search result.
+Depends: R (>= 4.0.0)
+Imports: dplyr(>= 1.0.6),
+    purrr(>= 0.3.4),
+    rvest (>= 1.0.0),
+    stringr (>= 1.4.0)
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001
