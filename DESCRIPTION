@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Asilata",
            family = "Karandikar",
            role = c("aut", "cre"),
-           email = "asilata.res@protonmail.com",
+           email = "asilatavikramkarandikar@gmail.com",
            comment = c(ORCID = "0000-0002-0764-2677"))
 Description: Collects data from searches on the Parliament of India's digital
     repository (https://eparlib.nic.in). Based on search inputs filtered by 
