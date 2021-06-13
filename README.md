@@ -25,4 +25,4 @@ Development is underway to create:
 
 ## Contribute
 
-Spotted a bug? Want to contribute to code development? Open a pull request on [GitHub](https://github.com/avkarandikar/eparlibscrapR).
+Spotted a bug? Report [here](https://github.com/avkarandikar/eparlibscrapR/issues). Want to contribute to code development? Open a pull request [here](https://github.com/avkarandikar/eparlibscrapR).
