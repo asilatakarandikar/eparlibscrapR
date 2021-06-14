@@ -2,7 +2,7 @@
 % Please edit documentation in R/function2.R
 \name{scrape_nonqna}
 \alias{scrape_nonqna}
-\title{A Webscraper for collecting data on debates in the Parliament of India}
+\title{A Web Scraper for Collecting Data on Debates in the Parliament of India}
 \usage{
 scrape_nonqna(y)
 }

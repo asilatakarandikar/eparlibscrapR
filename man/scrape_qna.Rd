@@ -2,7 +2,8 @@
 % Please edit documentation in R/function1.R
 \name{scrape_qna}
 \alias{scrape_qna}
-\title{A Webscraper for collecting data on questions asked in the Parliament of India}
+\title{A Web Scraper for Collecting Data on Questions asked in the Parliament of
+India}
 \usage{
 scrape_qna(x)
 }
@@ -13,7 +14,7 @@ scrape_qna(x)
 A tibble stored as a vector in the Global Environment.
 }
 \description{
-Collects data from searches on the Parliament of India's digital repository
+Collects data from searches on the Parliament of India's Digital Library
 \url{https://eparlib.nic.in}. When the search is filtered by type "Part 1
 Questions and Answers", it returns a data frame with details including the
 link to the pdf document in each search result.

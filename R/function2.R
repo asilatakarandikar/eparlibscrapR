@@ -1,4 +1,4 @@
-#' A Webscraper for collecting data on debates in the Parliament of India
+#' A Web Scraper for Collecting Data on Debates in the Parliament of India
 #'
 #' Collects data from searches on the Parliament of India's digital repository
 #' \url{https://eparlib.nic.in}. When the search is filtered by type "Part 2
