@@ -1,3 +1,5 @@
+eparlibscrapR <img src='man/figures/logo.png' align="right" height="139" />
+
 ### Introduction
 
 This is a simple web scraper built on `rvest` and packages from the `tidyverse` to collect and organise data from searches on the Parliament of India's [Digital Library](https://eparlib.nic.in). It returns a data frame with details including the pdf link of each search result. Refer to this [document](https://eparlib.nic.in/help/help_doc.pdf) for more information on using the Parliament Digital Library. Users are hereby advised to read the above [document](https://eparlib.nic.in/help/help_doc.pdf) and familiarise themselves with the [website](https://eparlib.nic.in) before using `eparlibscrapR`.
@@ -47,6 +49,3 @@ The logo is adapted from [this image](https://commons.wikimedia.org/wiki/File:In
 
 Original file: https://commons.wikimedia.org/wiki/File:Indian_Parliament.svg\
 Attribution: Suthir, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons.
-
-
-eparlibscrapR <img src='man/figures/logo.png' align="right" height="139" />
