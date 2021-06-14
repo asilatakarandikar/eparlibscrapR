@@ -1,9 +1,13 @@
-## Introduction
-
-This is a simple web scraper built on `rvest` to collect data from searches on the [Parliament of India's digital repository](https://eparlib.nic.in). It returns a data frame with details including the pdf link of each search result.
+eparlibscrapR <img src='man/figures/logo.png' align="right" height="139" />
 
 
-## Functions
+### Introduction
+
+This is a simple web scraper built on `rvest` to collect data from searches on the [Parliament of India's digital repository](https://eparlib.nic.in).\
+It returns a data frame with details including the pdf link of each search result.
+
+
+### Functions
 
 At present, this package offers two functions and requires two different search filters as input:
 
@@ -14,7 +18,7 @@ At present, this package offers two functions and requires two different search 
 This is to accommodate the differences in elements of the two search types.
 
 
-## Future Steps
+### Future Steps
 
 Development is underway to create:
 
@@ -23,6 +27,6 @@ Development is underway to create:
 2. A function to scrape, read, and tidy PDFs from the search results.
 
 
-## Contribute
+### Contribute
 
 Spotted a bug? Report [here](https://github.com/avkarandikar/eparlibscrapR/issues). Want to contribute to code development? Open a pull request [here](https://github.com/avkarandikar/eparlibscrapR).
