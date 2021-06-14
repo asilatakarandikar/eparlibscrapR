@@ -3,8 +3,7 @@ eparlibscrapR <img src='man/figures/logo.png' align="right" height="139" />
 
 ### Introduction
 
-This is a simple web scraper built on `rvest` to collect data from searches on the [Parliament of India's digital repository](https://eparlib.nic.in).\
-It returns a data frame with details including the pdf link of each search result.
+This is a simple web scraper built on `rvest` to collect data from searches on the [Parliament of India's digital repository](https://eparlib.nic.in). It returns a data frame with details including the pdf link of each search result.
 
 
 ### Functions
