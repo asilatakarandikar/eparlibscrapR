@@ -8,10 +8,9 @@ Authors@R:
            email = "asilata.karandikar@protonmail.com",
            comment = c(ORCID = "0000-0002-0764-2677"))
 Description: Collects metadata from searches on the Parliament of India's Digital
-    Library accessible at https://eparlib.nic.in. Based on search inputs filtered 
-    by "type" on the website - Part 1(Questions and Answers) or Part 2(Other than
-    Questions and Answers) - it returns a data frame with details including 
-    the link to the pdf document in each search result.
+    Library. Based on search inputs filtered by "type" - Part 1(Questions and 
+    Answers) or Part 2(Other than Questions and Answers) - it returns a data frame 
+    with details including the link to the pdf document in each search result.
 Depends: R (>= 4.0.0)
 Imports: dplyr(>= 1.0.6),
     purrr(>= 0.3.4),

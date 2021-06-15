@@ -2,7 +2,7 @@ eparlibscrapR <img src='man/figures/logo.png' align="right" height="139" />
 
 ### Introduction
 
-This is a simple web scraper built on [`rvest`](https://rvest.tidyverse.org/) to collect and organise metadata from searches on the Parliament of India's Digital Library which can be accessed at https://eparlib.nic.in. It returns a data frame with details including the pdf link of each search result. Familiarise yourself with the website and refer to its user guide before using this package. 
+This is a simple web scraper built on [`rvest`](https://rvest.tidyverse.org/) to collect and organise metadata from searches on the Parliament of India's Digital Library which can be accessed at www[dot]eparlib[dot]nic[dot]in. It returns a data frame with details including the pdf link of each search result.
 
 
 ### Functions
@@ -41,9 +41,9 @@ Spotted a bug? Report [here](https://github.com/avkarandikar/eparlibscrapR/issue
 
 4. The development of this Package, or any use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not in any way imply the official positions of, nor hold liable, the Entity.
 
-5. All attempts have been made to comply with the Terms and Conditions and the Copyright Policy of the Entity, which can be accessed at https://eparlib.nic.in/help/terms-conditions.jsp and https://eparlib.nic.in/help/copyright-policy.jsp respectively.
+5. All attempts have been made to comply with the Terms and Conditions and the Copyright Policy of the Entity, which can be accessed at www[dot]eparlib[dot]nic[dot]in/help/terms-conditions[dot]jsp and www[dot]eparlib[dot]nic[dot]in/help/copyright-policy.jsp respectively.
 
-6. The Author of this Package is neither responsible nor liable for any misuse or non-compliance with the said Terms and/or Policies by any third party.
+6. The Author of this Package is neither responsible nor liable for any misuse or non-compliance with the said Terms and/or Policies by any third party. Persons using this package are responsible for ensuring they comply with the same.
 
 7. Any person interested in using this Package should do so on the understanding that any third party use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not amount to an endorsement by, imply the positions of, or hold liable, the Author of this Package.
 
