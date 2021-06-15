@@ -33,21 +33,25 @@ Spotted a bug? Report [here](https://github.com/avkarandikar/eparlibscrapR/issue
 
 ### Author's Declaration
 
-`eparlibscrapR` (hereafter, "this Package") is neither affiliated with nor endorsed by the [Parliament Digital Library](https://eparlib.nic.in/) (hereafter, "the Entity").
+1. `eparlibscrapR` (hereafter, "this Package") is neither affiliated with nor endorsed by the [Parliament Digital Library](https://eparlib.nic.in/) (hereafter, "the Entity").
 
-This Package is created for systematic collection of data available in the public domain in support of research and study.
+2. This Package is created for systematic collection of data available in the public domain in support of research and study.
 
-All users of this package are hereby advised to refer to these [webscraping guidelines](https://towardsdatascience.com/ethics-in-web-scraping-b96b18136f01) and make ethical use of this Package.
+3. All users of this Package are hereby advised to refer to these [webscraping guidelines](https://towardsdatascience.com/ethics-in-web-scraping-b96b18136f01) and make ethical use of this Package.
 
-The development of this Package, or any use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not in any way imply the official positions of, nor hold liable, the Entity.
+4. The development of this Package, or any use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not in any way imply the official positions of, nor hold liable, the Entity.
 
-All attempts have been made to comply with the [Terms and Conditions](https://eparlib.nic.in/help/terms-conditions.jsp) and the [Copyright Policy](https://eparlib.nic.in/help/copyright-policy.jsp) of the Entity. The Author of this Package is neither responsible nor liable for any misuse or non-compliance with the said Terms and/or Policies by any third party.
+5. All attempts have been made to comply with the [Terms and Conditions](https://eparlib.nic.in/help/terms-conditions.jsp) and the [Copyright Policy](https://eparlib.nic.in/help/copyright-policy.jsp) of the Entity.
 
-This Package has been licensed under the [GNU General Public License v3.0](https://github.com/avkarandikar/eparlibscrapR/blob/main/LICENSE.md).
+6. The Author of this Package is neither responsible nor liable for any misuse or non-compliance with the said Terms and/or Policies by any third party.
 
-Any third party use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not amount to an endorsement by, imply the positions of, or hold liable, the Author of this Package. Any subsequent work which uses this Package must also be made available under the same license, as per the terms of using material licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+7. Any third party use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not amount to an endorsement by, imply the positions of, or hold liable, the Author of this Package.
 
-The Author of this Package is not responsible for changes in availability of information or non-availability of the same on any of the above-mentioned websites.
+8. This Package has been licensed under the [GNU General Public License v3.0](https://github.com/avkarandikar/eparlibscrapR/blob/main/LICENSE.md).
+
+9. Any subsequent work which uses this Package must also be made available under the same license, as per the terms of using material licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+10. The Author of this Package is not responsible for changes in availability of information or non-availability of the same on any of the above websites.
 
 
 #### About Logo
