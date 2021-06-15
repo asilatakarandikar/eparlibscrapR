@@ -2,19 +2,18 @@
 % Please edit documentation in R/function2.R
 \name{scrape_nonqna}
 \alias{scrape_nonqna}
-\title{A Web Scraper for Collecting Data on Debates in the Parliament of India}
+\title{A Web Scraper for Collecting Metadata on Debates in the Parliament of India}
 \usage{
-scrape_nonqna(y)
+scrape_nonqna(x)
 }
 \arguments{
-\item{y}{Character, String vectors.}
+\item{x}{Character, String vectors.}
 }
 \value{
 A tibble stored as a vector in the Global Environment.
 }
 \description{
-Collects data from searches on the Parliament of India's digital repository
-\url{https://eparlib.nic.in}. When the search is filtered by type "Part 2
-Other than Questions and Answers", it returns a data frame with details
-including the link to the pdf document in each search result.
+When the search is filtered by type "Part 2(Other than Questions and
+Answers)", this function returns a data frame with details including the link
+to the pdf document in each search result.
 }

@@ -1,11 +1,10 @@
-#' A Web Scraper for Collecting Data on Debates in the Parliament of India
+#' A Web Scraper for Collecting Metadata on Debates in the Parliament of India
 #'
-#' Collects data from searches on the Parliament of India's digital repository
-#' \url{https://eparlib.nic.in}. When the search is filtered by type "Part 2
-#' Other than Questions and Answers", it returns a data frame with details
-#' including the link to the pdf document in each search result.
+#' When the search is filtered by type "Part 2(Other than Questions and
+#' Answers)", this function returns a data frame with details including the link
+#' to the pdf document in each search result.
 #'
-#' @param y Character, String vectors.
+#' @param x Character, String vectors.
 #'
 #' @import dplyr
 #' @import purrr
@@ -15,62 +14,62 @@
 #' @return A tibble stored as a vector in the Global Environment.
 #' @export
 
-scrape_nonqna <- function(y) {
+scrape_nonqna <- function(x) {
 
-  y <- read_html(y)
+  x <- read_html(x)
 
-  y <- html_nodes(y, ".table-hover a") %>%
+  x <- html_nodes(x, ".table-hover a") %>%
     html_attr("href")
 
   prefix <- c("http://eparlib.nic.in")
 
-  y <- str_c(prefix, y)
+  x <- str_c(prefix, x)
 
-  y <- str_split(y, pattern = " ")
+  x <- str_split(x, pattern = " ")
 
-  date <- y %>%
+  date <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(3) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  type <- y %>%
+  type <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(2) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  title <- y %>%
+  title <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(1) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  debate <- y %>%
+  debate <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(7) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  MP <- y %>%
+  MP <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(4) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  LS <- y %>%
+  LS <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(5) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  LS_session <- y %>%
+  LS_session <- x %>%
     map(read_html) %>%
     map(html_element, "tr:nth-child(6) .metadataFieldValue") %>%
     map_chr(html_text)
 
-  pdf <- y %>%
+  pdf <- x %>%
     map(read_html) %>%
     map(html_element, ".btn-primary") %>%
     map_chr(html_attr, "href")
 
   pdf_link <- str_c(prefix, pdf)
 
-  z <- tibble(
+  y <- tibble(
     "Date" = date,
     "Type" = type,
     "Title" = title,
@@ -81,6 +80,6 @@ scrape_nonqna <- function(y) {
     "PDF_Link" = pdf_link
   )
 
-  return(.GlobalEnv$non_qna <- z)
+  return(.GlobalEnv$non_qna <- y)
 
 }

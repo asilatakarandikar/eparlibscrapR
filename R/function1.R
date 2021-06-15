@@ -1,10 +1,9 @@
-#' A Web Scraper for Collecting Data on Questions asked in the Parliament of
+#' A Web Scraper for Collecting Metadata on Questions asked in the Parliament of
 #' India
 #'
-#' Collects data from searches on the Parliament of India's Digital Library
-#' \url{https://eparlib.nic.in}. When the search is filtered by type "Part 1
-#' Questions and Answers", it returns a data frame with details including the
-#' link to the pdf document in each search result.
+#' When the search is filtered by type "Part 1(Questions and Answers)", this
+#' function returns a data frame with details including the link to the pdf
+#' document in each search result.
 #'
 #' @param x Character, String vectors.
 #'
@@ -81,7 +80,7 @@ scrape_qna <- function(x) {
 
   pdf_link <- str_c(prefix, pdf)
 
-  z <- tibble(
+  y <- tibble(
     "Date" = date,
     "Type" = type,
     "Title" = title,
@@ -94,6 +93,6 @@ scrape_qna <- function(x) {
     "PDF_Link" = pdf_link
     )
 
-  return(.GlobalEnv$qna <- z)
+  return(.GlobalEnv$qna <- y)
 
   }
