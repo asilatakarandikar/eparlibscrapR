@@ -41,7 +41,7 @@ Spotted a bug? Report [here](https://github.com/avkarandikar/eparlibscrapR/issue
 
 4. The development of this Package, or any use of this Package for any purpose, by itself or in combination with, or as the basis for other packages, or any analyses resultant thereof, does not in any way imply the official positions of, nor hold liable, the Entity.
 
-5. All attempts have been made to comply with the Terms and Conditions and the Copyright Policy of the Entity, which can be accessed at www[dot]eparlib[dot]nic[dot]in/help/terms-conditions[dot]jsp and www[dot]eparlib[dot]nic[dot]in/help/copyright-policy[dot]jsp respectively.
+5. All attempts have been made to comply with the Terms and Conditions and the Copyright Policy (accessible at www[dot]eparlib[dot]nic[dot]in/help/terms-conditions[dot]jsp and www[dot]eparlib[dot]nic[dot]in/help/copyright-policy[dot]jsp respectively), and other policies of the Entity.
 
 6. The Author of this Package is neither responsible nor liable for any misuse or non-compliance with the said Terms and/or Policies by any third party. Persons using this package are responsible for ensuring they comply with the same.
 
